@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# Uploads (never commit PDFs)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Python virtual env
+ai-service/venv/
+
+# Build outputs
+frontend/dist/

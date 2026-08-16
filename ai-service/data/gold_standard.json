@@ -1,0 +1,233 @@
+{
+  "source": "Official IGR Maharashtra Leave and License Agreement Template + Maharashtra Rent Control Act 1999 (Section 24)",
+  "compulsory_fields": [
+    {
+      "field_id": "1_2",
+      "name": "Date and Location of Execution",
+      "igr_clause": "Opening clause — Compulsory",
+      "description": "Agreement must state the exact date and city/location where it is executed."
+    },
+    {
+      "field_id": "3_6B",
+      "name": "Licensor Full Details",
+      "igr_clause": "Licensor section — Compulsory",
+      "description": "Must include: full name, age, occupation, address, PAN number, and Aadhaar UID of the licensor."
+    },
+    {
+      "field_id": "7_10B",
+      "name": "Licensee Full Details",
+      "igr_clause": "Licensee section — Compulsory",
+      "description": "Must include: full name, age, occupation, address, PAN number, and Aadhaar UID of the licensee."
+    },
+    {
+      "field_id": "10C",
+      "name": "Purpose of Use",
+      "igr_clause": "Clause 2 — Compulsory",
+      "description": "Must explicitly state whether use is Residential or Commercial. IGR template treats this as a mandatory field."
+    },
+    {
+      "field_id": "11_12_13",
+      "name": "License Period with Exact Start and End Dates",
+      "igr_clause": "Clause 4.1 — Compulsory",
+      "description": "Must state duration in months, exact start date, and exact end date. Based on Section 24 of Maharashtra Rent Control Act 1999."
+    },
+    {
+      "field_id": "14_rent",
+      "name": "Monthly License Fee (Rent) Amount",
+      "igr_clause": "Clause 4.2 — One of 2.1, 2.2, 2.3, or 2.4 is Compulsory",
+      "description": "Must state exact monthly compensation in rupees. Payable within the first 5 days of each month as per IGR template."
+    },
+    {
+      "field_id": "maintenance",
+      "name": "Maintenance Charges Responsibility",
+      "igr_clause": "Clause 4.4 — One of 4.1 or 4.2 is Compulsory",
+      "description": "Must clearly state who pays maintenance, taxes, levies, non-occupancy charges. Either licensor (4.1) or licensee (4.2) — cannot be left undefined."
+    },
+    {
+      "field_id": "use_clause",
+      "name": "Use and Upkeep Clause",
+      "igr_clause": "Clause 4.5 — Compulsory",
+      "description": "Licensee must maintain premises in existing condition. Damage beyond normal wear and tear repaired at licensee's cost. No nuisance or unlawful activity."
+    },
+    {
+      "field_id": "alteration",
+      "name": "No Alteration Without Written Consent",
+      "igr_clause": "Clause 4.6 — Compulsory",
+      "description": "Licensee cannot make any structural or internal alterations without prior written consent from licensor."
+    },
+    {
+      "field_id": "no_tenancy",
+      "name": "No Tenancy Rights Clause",
+      "igr_clause": "Clause 4.7 — Compulsory",
+      "description": "Licensee cannot claim tenancy rights, sublet, assign, transfer, or mortgage the premises. This is a core distinguishing feature of Leave and License vs. tenancy."
+    },
+    {
+      "field_id": "inspection",
+      "name": "Licensor Right to Inspect with Notice",
+      "igr_clause": "Clause 4.8 — Compulsory",
+      "description": "Licensor can inspect at reasonable intervals but MUST give reasonable prior notice. Entry without notice is not permitted under this clause."
+    },
+    {
+      "field_id": "cancellation",
+      "name": "Cancellation and Notice Period",
+      "igr_clause": "Clause 4.9 — Compulsory",
+      "description": "Either party may terminate with 1 month written notice. This right is MUTUAL — both licensor and licensee have equal 1-month notice rights."
+    },
+    {
+      "field_id": "possession",
+      "name": "Vacation of Premises on Expiry",
+      "igr_clause": "Clause 4.10 — Compulsory",
+      "description": "Licensee must vacate immediately on expiry or termination. If licensee overstays, licensor is entitled to double the daily compensation rate per day."
+    },
+    {
+      "field_id": "registration",
+      "name": "Mandatory Registration",
+      "igr_clause": "Clause 4.12 — Compulsory",
+      "description": "Agreement MUST be registered. Stamp duty and registration fees are borne by the LICENSOR (landlord) as per the IGR template. Unregistered agreements are not enforceable."
+    },
+    {
+      "field_id": "property_schedule",
+      "name": "Property Schedule (Full Description)",
+      "igr_clause": "Clause 5 — Compulsory",
+      "description": "Must include: flat/unit number, area, floor, building name/number, CTS/Survey number, Hissa number, village, tahasil, district, and municipal corporation name."
+    },
+    {
+      "field_id": "witnesses",
+      "name": "Two Witnesses with UID",
+      "igr_clause": "Clause 8 — Compulsory",
+      "description": "Two witnesses required with full name, address, and Aadhaar UID. Both must be present at execution."
+    }
+  ],
+  "optional_fields": [
+    {
+      "field_id": "15_deposit",
+      "name": "Refundable Security Deposit Amount",
+      "igr_clause": "Clause 2.2 — Optional (but standard practice)",
+      "description": "If included, must be explicitly stated as interest-free refundable deposit. Refunded at end of agreement after deducting any outstanding dues."
+    },
+    {
+      "field_id": "16_premium",
+      "name": "Non-Refundable Deposit / Premium",
+      "igr_clause": "Clause 2.3 / 2.4 — Optional",
+      "description": "If a non-refundable deposit is taken, it must be explicitly labelled as non-refundable in the agreement."
+    },
+    {
+      "field_id": "miscellaneous",
+      "name": "Additional Terms and Conditions",
+      "igr_clause": "Clause 4.11 — Optional",
+      "description": "Parties may add custom terms here. This is the only section where custom clauses are permitted in the IGR template."
+    }
+  ],
+  "red_flag_patterns": [
+    {
+      "pattern": "landlord may enter without notice",
+      "explanation": "Violates IGR Clause 4.8 which requires reasonable prior notice before inspection. Entry without notice is not permitted.",
+      "severity": "HIGH"
+    },
+    {
+    "pattern": "waives all rights to approach any court|waiver of court|licensee expressly waives|shall not approach any court|decision shall be final and binding|sole and absolute discretion of the licensor|resolved at the sole and absolute discretion|disputes.*sole.*discretion",
+    "igr_reference": "IGR Clause 4.13",
+    "severity": "HIGH",
+    "description": "Waiver of right to approach court or unilateral dispute resolution — void under MRCA 1999"
+    },    
+    {
+      "pattern": "notice period.*only.*licensee",
+      "explanation": "IGR Clause 4.9 mandates MUTUAL one month notice — both parties have equal rights. A one-sided notice period binding only the tenant is non-standard.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "stamp duty.*borne by licensee",
+      "explanation": "IGR Clause 4.12 explicitly states stamp duty and registration fees shall be borne by the LICENSOR (landlord), not the tenant.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "agreement need not be registered",
+      "explanation": "Registration is COMPULSORY under IGR Clause 4.12 and Section 55 of Maharashtra Rent Control Act 1999. An unregistered agreement cannot be enforced in court.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "licensor.*remove.*without.*court|without recourse to the court of law",
+      "explanation": "Self-help eviction is illegal under Maharashtra law. IGR Clause 4.10 permits removal only after agreement expiry via due legal process. A landlord cannot physically remove a tenant without a court order.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "tenant waives right",
+      "explanation": "Statutory rights under Maharashtra Rent Control Act 1999 cannot be waived by contract. Such clauses are void under Indian Contract Act.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "deposit.*non-refundable",
+      "explanation": "If the agreement uses Clause 2.2 (refundable deposit) language but later calls it non-refundable, this is contradictory. Non-refundable deposits must be clearly labelled as such using Clause 2.3/2.4 in the IGR template.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "rent.*increase.*any time",
+      "explanation": "Rent can only be increased as per the schedule agreed in the agreement. Arbitrary increases are not permitted.",
+      "severity": "HIGH"
+    },
+    {
+    "pattern": "licensee shall bear all outgoings",
+    "explanation": "IGR Clause 4.4 gives two options — either licensor pays all outgoings (4.1) or licensee pays maintenance while licensor pays taxes and levies (4.2). Placing ALL outgoings including property tax on the licensee expands beyond the IGR template and is one-sided.",
+    "severity": "MEDIUM"
+    },
+    {
+    "pattern": "licensor shall bear no maintenance responsibility",
+    "explanation": "Completely absolving the licensor of all maintenance responsibility violates the spirit of IGR Clause 4.4 which requires maintenance responsibilities to be shared.",
+    "severity": "MEDIUM"
+    },
+    {
+      "pattern": "no.*PAN|no.*UID|no.*aadhaar",
+      "explanation": "IGR template makes PAN and Aadhaar UID compulsory for both licensor and licensee. Missing identity details weaken enforceability.",
+      "severity": "MEDIUM"
+    },
+    {
+      "pattern": "lock-in.*equal to.*agreement period|lock-in.*11 months",
+      "explanation": "A lock-in period equal to the entire duration of the agreement negates the 1-month cancellation right (Clause 4.9). This is a highly restrictive trap.",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "licensee.*responsible for structural.*repairs|licensee.*bear cost of leakage",
+      "explanation": "Under standard Leave and License norms, major structural repairs (like building leakages, external plumbing, civil work) are strictly the Licensor's responsibility. This clause unfairly shifts major capital expenses to the tenant.",
+      "severity": "HIGH"
+    },
+    {
+    "pattern": "terminat* immediately if licensee loses employment",
+    "igr_reference": "IGR Clause 4.9",
+    "severity": "HIGH",
+    "description": "Unilateral termination tied to licensee's employment status"
+    }
+  ],
+"discriminatory_patterns": [
+    {
+      "pattern": "only.*vegetarians|no.*non-veg|no.*meat",
+      "explanation": "Restricting dietary habits violates fundamental rights under Article 15. While common in some societies, it is legally unenforceable and discriminatory.",
+      "legal_basis": "Article 15 of the Constitution of India; Right to Privacy",
+      "severity": "HIGH"
+    },
+    {
+      "pattern": "bachelors.*not allowed|only.*families|unmarried.*prohibited",
+      "explanation": "Discrimination based on marital status. Housing societies and licensors cannot legally enforce blanket bans on bachelors/spinsters.",
+      "legal_basis": "Article 15 of the Constitution of India",
+      "severity": "HIGH"
+    },
+    {
+        "pattern": "no.*pets|pets.*prohibited",
+        "explanation": "Blanket pet bans are increasingly challenged. The Animal Welfare Board of India has issued guidelines discouraging such restrictions, though this is not yet settled law.",
+        "legal_basis": "AWBI Guidelines 2015; not yet a statutory right",
+        "severity": "LOW"
+    }
+  ],    
+  "standard_values": {
+    "notice_period_days": 30,
+    "notice_period_mutual": true,
+    "rent_due_by_day_of_month": 5,
+    "overstay_penalty": "double the daily compensation rate per day",
+    "stamp_duty_borne_by": "Licensor",
+    "registration": "Compulsory under IGR Clause 4.12",
+    "witnesses_required": 2,
+    "witness_uid_required": true,
+    "subletting_permitted": false,
+    "alteration_without_consent": false,
+    "inspection_notice_required": true
+  }
+}
