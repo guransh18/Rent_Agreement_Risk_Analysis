@@ -1,4 +1,4 @@
-# RentGuard ⚖️
+# RentGuard
 
 **Maharashtra Residential Rent Agreement Analyzer**
 
